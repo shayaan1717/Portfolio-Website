@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shayaan's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="mailto:mohammed.shayaan765@gmail.com"
+          ><i class="ri-mail-fill"></i
+        ></a>
+        <a href="https://github.com/shayaan1717"
+          ><i class="ri-github-fill"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/shayaan17/"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">MS<span>.</span></a>
+            </div>
+
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#education">Education</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.jpg" alt="header" />
+        </div>
+
+        <div class="header__content">
+          <h4>Code. Create. Connect.</h4>
+          <h1>Hi, I am Shayaan. This is My Favourite Work!</h1>
+          <p>
+            A web developer passionate about building interactive and
+            user-friendly websites, with a strong foundation in Java,
+            automation, and UI testing. Experienced in designing web solutions,
+            leveraging modern frameworks and tools to create reliable, scalable
+            projects that enhance digital experiences.
+          </p>
+          <a href="mailto:mohammed.shayaan765@gmail.com"
+            ><button class="btn">Hire Me Now</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There, I Am Shayaan.</h2>
+        <p>
+          As a web developer, I focus on building interactive and reliable web
+          applications that provide seamless user experiences. I enjoy combining
+          my skills in programming and automation to craft solutions that stand
+          out.
+        </p>
+        <h4>
+          I have a strong desire to continuously learn and explore new areas
+          within the IT world, aiming to enhance my expertise and adapt to the
+          rapidly changing tech landscape. Growth and innovation drive my
+          professional journey.
+        </h4>
+        <div class="about__btns">
+          <a
+            href="assets/Mohammed_Shayaan_CV.pdf"
+            download
+            class="download__btn"
+          >
+            Download CV
+          </a>
+          <a href="mailto:mohammed.shayaan765@gmail.com"
+            ><i class="ri-mail-fill"></i
+          ></a>
+          <a href="https://github.com/shayaan1717"
+            ><i class="ri-github-fill"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/shayaan17/"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span>
+          <i class="ri-paint-brush-line"></i>
+        </span>
+        <div>
+          <h4>Java Developer</h4>
+          <p>
+            Dedicated Java developer skilled in building robust backend systems,
+            leveraging OOP principles to deliver scalable solutions for
+            real-time applications.
+          </p>
+        </div>
+      </div>
+
+      <div class="banner__card">
+        <span>
+          <i class="ri-layout-masonry-line"></i>
+        </span>
+        <div>
+          <h4>Front-End Developer</h4>
+          <p>
+            Passionate web developer with hands-on experience in designing
+            responsive interfaces and integrating modern front-end technologies
+            with efficient backend logic
+          </p>
+        </div>
+      </div>
+
+      <div class="banner__card">
+        <span>
+          <i class="ri-checkbox-line"></i>
+        </span>
+        <div>
+          <h4>SDET</h4>
+          <p>
+            Results-driven SDET proficient in Selenium WebDriver and TestNG,
+            specializing in automating test frameworks to ensure high-quality
+            software delivery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        <div class="project__nav">
+          <button class="btn project__btn" data-filter="all">All</button>
+          <button class="btn project__btn" data-filter=".game">Games</button>
+          <button class="btn project__btn" data-filter=".design">
+            Designs
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+        </div>
+      </div>
+
+      <div class="project__grid">
+        <div class="project__card mix design">
+          <a href="assets/PROJECT_1_video.mp4"
+            ><img src="assets/project-1.jpg" alt="project"
+          /></a>
+        </div>
+        <div class="project__card mix design">
+          <a href="assets/FINAL REPORT WITH PLAG.pdf">
+            <img src="assets/project-2.jpg" alt="project" />
+          </a>
+        </div>
+        <div class="project__card mix web">
+          <a href="https://myamazon17.netlify.app/">
+            <img src="assets/project-3.jpg" alt="project" />
+          </a>
+        </div>
+        <div class="project__card mix web">
+          <a href="https://n-1717171-mywebsite17.netlify.app/"></a>
+          <img src="assets/project-4.jpg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <a href="https://roll-the-dice-try-your-luck.netlify.app/"
+            ><img src="assets/project-5.jpg" alt="project"
+          /></a>
+        </div>
+        <div class="project__card mix game">
+          <a href="https://guess-the-numbers-1to100.netlify.app/"
+            ><img src="assets/project-6.jpg" alt="project"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION PART ----- USING Swiper -->
+
+    <section class="section__container education__container" id="education">
+      <h2 class="section__header">My Eduction</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+
+          <div class="swiper-slide">
+            <div class="education__card">
+              <img src="assets/Education1.png" alt="education" />
+              <div>
+                <h4>
+                  Visvesvaraya Technological University
+                  <span>(2020 - 2024)</span>
+                </h4>
+                <h5>B.E. in Information Science and Engineering</h5>
+                <p>
+                  Built a strong academic and technical foundation in computer
+                  science concepts, programming, and modern web technologies.
+                  Engaged in hands-on projects involving real-time systems and
+                  application development, strengthening analytical thinking,
+                  problem-solving, and teamwork skills.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="education__card">
+              <img src="assets/Education3.jpg" alt="education" />
+
+              <div>
+                <h4>
+                  St. John's High School
+                  <span>(2017 – 2019)</span>
+                </h4>
+                <h5>Senior Secondary Education (PCMB)</h5>
+                <p>
+                  Focused on Physics, Chemistry, Mathematics, and Biology,
+                  developing a logical and research-oriented mindset. Enhanced
+                  analytical reasoning and quantitative aptitude through
+                  rigorous coursework and academic excellence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="education__card">
+              <img src="assets/Education3.jpg" alt="education" />
+              <div>
+                <h4>
+                  St. John’s High School
+                  <span>(2017)</span>
+                </h4>
+                <h5>Secondary Education (Science Branch)</h5>
+                <p>
+                  Established a solid academic base with emphasis on science and
+                  mathematics. Cultivated curiosity, discipline, and a
+                  consistent learning attitude that shaped the foundation for
+                  future technical education.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- DONE LATER THE ABOVE PART ---- DONE WOOHOOOO -->
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get in Touch</h2>
+
+      <!-- 
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Phone Number" />
+        <button class="btn">Submit</button>
+      </form>
+       -->
+      <form class="contact__form" name="submit-to-google-sheet">
+        <div class="input__row">
+          <input
+            name="First Name"
+            type="text"
+            placeholder="First Name"
+            required
+          />
+          <input
+            name="Last Name"
+            type="text"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <input name="Email" type="email" placeholder="Email" required />
+        <input
+          name="Phone Number"
+          type="text"
+          placeholder="Phone Number"
+          required
+        />
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Shayaan</a></h5>
+          <p>
+            Thank you for visiting my portfolio! I’m passionate about
+            transforming ideas into meaningful digital experiences and
+            constantly exploring new ways to grow as a developer. Let’s connect
+            and create something impactful together.
+          </p>
+
+          <div class="footer__socials">
+            <a href="mailto:mohammed.shayaan765@gmail.com"
+              ><i class="ri-mail-fill"></i
+            ></a>
+            <a href="https://github.com/shayaan1717"
+              ><i class="ri-github-fill"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/shayaan17/"
+              ><i class="ri-linkedin-box-fill"></i
+            ></a>
+            <a href="https://www.instagram.com/shayaan_17/"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__bar">Come Again!</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
